@@ -1,0 +1,34 @@
+.display {
+    display: grid;      /* Isso define que o elemento com a classe .display será exibido como um grid. */
+    max-width: 300px; /*Define a largura máxima do elemento com a classe .display como 300 pixels. */
+    margin: 0 auto;     /*Isso centraliza horizontalmente o elemento com a classe .display na página. */
+    padding: 10px;      /*Isso adiciona um preenchimento interno de 10 pixels ao redor do elemento com a classe .display */
+    border: 1px solid #ccc;     /*Isso adiciona uma borda sólida de 1 pixel com a cor cinza claro ao elemento com a classe .display. */
+    border-radius: 5px;     /*sso define um raio de borda de 5 pixels para arredondar as bordas do elemento com a classe .display. */
+    height: 30px; /* Defina a altura desejada */
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);      /* Isso define que o grid terá 4 colunas com largura igual (1fr é uma unidade flexível que distribui o espaço disponível igualmente).*/
+    grid-gap: 5px;                              /*Isso define o espaçamento entre as células do grid como 5 pixels. */
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;      /*Adiciona um preenchimento interno de 10 pixels ao redor do botão. */
+    font-size: 1.2em;       /*Define o tamanho da fonte como 1.2 vezes o tamanho padrão. */
+    background-color: #f0f0f0;      /*Define a cor de fundo como um tom de cinza claro. */
+    border: 1px solid #ccc;         /* Adiciona uma borda sólida de 1 pixel com a cor cinza claro ao botão.*/
+    border-radius: 5px;                 /*Define um raio de borda de 5 pixels para arredondar as bordas do botão. */
+    cursor: pointer;                /*Define o cursor do mouse como uma mão para indicar que o botão é clicável. */
+}
+
+button:active {
+    background-color: #434446;
+}
+
